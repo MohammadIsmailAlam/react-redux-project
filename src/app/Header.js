@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header className="Header">
       <h1>This is a Redux Project and here you can add a Post</h1>
-      <a href="https://github.com/mohammadIsamil/React_Redux_project" className="GithubLink">
+      <a href="https://github.com/mohammadIsamil/react-redux-project" className="GithubLink">
         <FaGithub />
       </a>
     </header>
