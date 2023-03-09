@@ -9,6 +9,7 @@ const Header = () => {
   const toggleForm = () => {
     setShowForm(!showForm);
     document.body.classList.toggle("no-scroll");
+    document.querySelector(".AddPostForm").classList.toggle("slide-in-right");
   };
   
 
