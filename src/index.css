@@ -118,3 +118,16 @@ article {
   margin-top: 1em;
   color: #666;
 }
+
+.slide-in-right {
+  animation: slide-in-right 1s forwards;
+}
+
+@keyframes slide-in-right {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}

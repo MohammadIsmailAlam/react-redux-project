@@ -38,8 +38,8 @@ const AddPostForm = () => {
       className="pop h-100 bg-white shadow-lg"
       style={{ marginTop: "3em", zIndex: 11, background: "teal" }}
     >
-      <h2>Add a New Post</h2>
-      <form className="h-100 d-flex flex-column w-450">
+      <h2 className="slide-in-right">Add a New Post</h2>
+      <form className="h-100 d-flex flex-column w-450 slide-in-right">
         <label htmlFor="postTitle">Post Title:</label>
         <input
           type="text"
