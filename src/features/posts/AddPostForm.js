@@ -34,7 +34,7 @@ const AddPostForm = () => {
   ));
 
   return (
-    <section>
+    <section style={{marginTop: "4em"}}>
       <h2>Add a New Post</h2>
       <form>
         <label htmlFor="postTitle">Post Title:</label>
