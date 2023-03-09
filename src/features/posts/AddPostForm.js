@@ -34,9 +34,9 @@ const AddPostForm = () => {
   ));
 
   return (
-    <section style={{marginTop: "4em"}}>
+    <section className="pop h-100 bg-white shadow-lg" style={{marginTop: "3em", zIndex:11}}>
       <h2>Add a New Post</h2>
-      <form>
+      <form className="h-100 d-flex flex-column w-450">
         <label htmlFor="postTitle">Post Title:</label>
         <input
           type="text"

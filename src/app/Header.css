@@ -13,7 +13,6 @@
   }
   
   .GithubLink {
-    margin-left: auto;
     display: flex;
     align-items: center;
     color: #000000;
@@ -24,3 +23,24 @@
     margin: 0;
     color: black;
   }
+
+  .AddPostButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  
+  .AddPostButton:hover {
+    background-color: #0062cc;
+  }
+
+.pop {
+  position: fixed;
+  right: 0;
+  top: 0;
+  background: #0c243c;
+  padding: 20px;
+}

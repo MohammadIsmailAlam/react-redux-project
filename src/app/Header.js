@@ -1,14 +1,29 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Header.css";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaPlus } from "react-icons/fa";
+import AddPostForm from "../features/posts/AddPostForm";
 
 const Header = () => {
+  const [showForm, setShowForm] = useState(false);
+
+  const toggleForm = () => {
+    setShowForm(!showForm);
+    document.body.classList.toggle("no-scroll");
+  };
+  
+
   return (
     <header className="Header">
-      <h1>This is a Redux Project and here you can add a Post</h1>
       <a href="https://github.com/mohammadIsamil/react-redux-project" className="GithubLink">
         <FaGithub />
       </a>
+      <h1>Post</h1>
+      <div className="trn">
+        <button className="AddPostButton" onClick={toggleForm}> 
+           <FaPlus /> 
+         </button>
+        {showForm && <AddPostForm />}
+      </div>
     </header>
   );
 };
