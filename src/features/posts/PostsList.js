@@ -26,7 +26,10 @@ const PostsList = () => {
   return (
     <section>
       <h2>Posts</h2>
-      {renderedPosts}
+      <div className="articals" >
+        {renderedPosts}
+      </div>
+      
     </section>
   );
 };
