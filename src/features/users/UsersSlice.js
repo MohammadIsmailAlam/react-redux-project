@@ -6,7 +6,7 @@ const initialState = [
     { id: '2', name: 'Dave Gray' }
 ]
 
-const usersSlice = createSlice({
+const UsersSlice = createSlice({
     name: 'users',
     initialState,
     reducers: {}
@@ -14,4 +14,4 @@ const usersSlice = createSlice({
 
 export const selectAllUsers = (state) => state.users;
 
-export default usersSlice.reducer
+export default UsersSlice.reducer;
